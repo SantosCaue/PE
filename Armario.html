@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETESP | LOJA</title>
+    <link rel="stylesheet" type="text/css" href="armarios-style.css">
+</head>
+<body>
+    <header>
+        <h1>ETESP - ARMÁRIOS</h1>
+    </header>
+    <nav id="menu-h">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="Armario.html">Armários</a>
+            <a href="contato.html">Contato</a>
+            <a href="entrar.html">Entrar</a>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <button id="A1" onclick="changeColor('A1')">1A</button>
+            <button id="B1" onclick="changeColor('B1')">1B</button>
+            <button id="C1" onclick="changeColor('C1')">1C</button>
+            <button id="D1" onclick="changeColor('D1')">1D</button>
+            <button id="E1" onclick="changeColor('E1')">1E</button>
+        </div>
+        <div>
+            <button id="A2" onclick="changeColor('A2')">2A</button>
+            <button id="B2" onclick="changeColor('B2')">2B</button>
+            <button id="C2" onclick="changeColor('C2')">2C</button>
+            <button id="D2" onclick="changeColor('D2')">2D</button>
+            <button id="E2" onclick="changeColor('E2')">2E</button>
+        </div>
+        <div>
+            <button id="A3" onclick="changeColor('A3')">3A</button>
+            <button id="B3" onclick="changeColor('B3')">3B</button>
+            <button id="C3" onclick="changeColor('C3')">3C</button>
+            <button id="D3" onclick="changeColor('D3')">3D</button>
+            <button id="E3" onclick="changeColor('E3')">3E</button>
+        </div>
+        <div>
+            <button id="A4" onclick="changeColor('A4')">4A</button>
+            <button id="B4" onclick="changeColor('B4')">4B</button>
+            <button id="C4" onclick="changeColor('C4')">4C</button>
+            <button id="D4" onclick="changeColor('D4')">4D</button>
+            <button id="E4" onclick="changeColor('E4')">4E</button>
+        </div>
+        <script>
+            function changeColor(id) {
+                var button = document.getElementById(id);
+                if (button.style.backgroundColor === 'darkgoldenrod') {
+                    button.style.backgroundColor = 'rgb(74, 189, 22)';
+                } else {
+                    button.style.backgroundColor = 'darkgoldenrod';
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© Riquelme Borges, Cauê Santos, Daniel Minoru, Gabriel Eiki, Henrique Bressan - Todos os
