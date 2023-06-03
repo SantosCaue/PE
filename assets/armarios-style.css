@@ -1,11 +1,28 @@
-*{margin: 0 auto;}
-body { 
+* {
+    margin: 0 auto;
+}
+
+body {
     background-color: rgb(56, 56, 56);
 }
+
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 80px;
 }
+
+h3 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+H5 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 /*  
 Tudo que está neste bloco é da linguagem css
 
@@ -28,7 +45,7 @@ header div {
     width: 0.01%;
 }
 
-#logo img{
+#logo img {
     height: 75px;
     margin-left: 10px;
 }
@@ -40,9 +57,11 @@ header div {
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 nav {
     background-color: #044a0e;
     height: 47px;
@@ -50,46 +69,84 @@ nav {
     display: flex;
 
 }
+
 nav div {
     display: flex;
     align-items: center;
-    width: 500px;  
+    width: 500px;
 }
 
 nav div a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
-nav div a:hover{
+nav div a:hover {
     background-color: #013008;
 }
 
-main{
-            height: auto;
-            width: 100%;
-            background-color: #172838;
-            flex-direction: row;
-            text-align: center;
+main {
+    height: 18.1cm;
+    width: 100%;
+    background-color: #172838;
+    text-align: center;
+}
+
+div#title {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+div#selection {
+    margin-bottom: 30px;
+    flex: 70%;
+}
+
+div#comprar {
+    display: flex;
+    flex: 30%;
+}
+
+#comprar button {
+    margin-top: 75%;
+    width: auto;
+    background-color: darkred;
+    border: solid black 3px;
+    cursor: pointer;
+}
+
+div#elements {
+    display: flex;
+    flex-direction: row;
 }
 
 main div button {
-            background-color: rgb(74, 189, 22);
-            margin: 8px;
-            height: 100px;
-            width: 100px;
-            border: none;
+    margin: 8px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: rgb(74, 189, 22);
+    border: solid black 2px;
+    cursor: pointer;
 
 }
 
-button:hover{
-            background-color: #044a0e;
-            border: solid black 2px ;
+button.changeColor {
+    background-color: rgb(180, 137, 27);
+}
+
+button:hover {
+    background-color: #044a0e;
+}
+
+button.changeColor:hover {
+    background-color: rgb(128, 93, 7);
 }
 
 footer {

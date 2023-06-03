@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ETESP | LOJA</title>
     <link rel="stylesheet" type="text/css" href="assets/armarios-style.css">
 </head>
+
 <body>
     <header>
         <div id="logo">
@@ -27,52 +29,52 @@
         </div>
     </nav>
     <main>
-
-           <div>
-            <button id="A1" onclick="changeColor('A1')">1A</button>
-            <button id="B1" onclick="changeColor('B1')">1B</button>
-            <button id="C1" onclick="changeColor('C1')">1C</button>
-            <button id="D1" onclick="changeColor('D1')">1D</button>
-            <button id="E1" onclick="changeColor('E1')">1E</button>
+        <div id="title">
+            <H3>ESCOLHA SEU ARMÁRIO</H3>
         </div>
-        <div>
-            <button id="A2" onclick="changeColor('A2')">2A</button>
-            <button id="B2" onclick="changeColor('B2')">2B</button>
-            <button id="C2" onclick="changeColor('C2')">2C</button>
-            <button id="D2" onclick="changeColor('D2')">2D</button>
-            <button id="E2" onclick="changeColor('E2')">2E</button>
+        <div id="elements">
+            <div id="selection">
+                <div>
+                    <button class="quadrado" id="A1" onclick="changeColor('A1')">1A</button>
+                    <button class="quadrado" id="B1" onclick="changeColor('B1')">1B</button>
+                    <button class="quadrado" id="C1" onclick="changeColor('C1')">1C</button>
+                    <button class="quadrado" id="D1" onclick="changeColor('D1')">1D</button>
+                    <button class="quadrado" id="E1" onclick="changeColor('E1')">1E</button>
+                </div>
+                <div>
+                    <button class="quadrado" id="A2" onclick="changeColor('A2')">2A</button>
+                    <button class="quadrado" id="B2" onclick="changeColor('B2')">2B</button>
+                    <button class="quadrado" id="C2" onclick="changeColor('C2')">2C</button>
+                    <button class="quadrado" id="D2" onclick="changeColor('D2')">2D</button>
+                    <button class="quadrado" id="E2" onclick="changeColor('E2')">2E</button>
+                </div>
+                <div>
+                    <button class="quadrado" id="A3" onclick="changeColor('A3')">3A</button>
+                    <button class="quadrado" id="B3" onclick="changeColor('B3')">3B</button>
+                    <button class="quadrado" id="C3" onclick="changeColor('C3')">3C</button>
+                    <button class="quadrado" id="D3" onclick="changeColor('D3')">3D</button>
+                    <button class="quadrado" id="E3" onclick="changeColor('E3')">3E</button>
+                </div>
+                <div>
+                    <button class="quadrado" id="A4" onclick="changeColor('A4')">4A</button>
+                    <button class="quadrado" id="B4" onclick="changeColor('B4')">4B</button>
+                    <button class="quadrado" id="C4" onclick="changeColor('C4')">4C</button>
+                    <button class="quadrado" id="D4" onclick="changeColor('D4')">4D</button>
+                    <button class="quadrado" id="E4" onclick="changeColor('E4')">4E</button>
+                </div>
+            </div>
+            <div id="comprar">
+                <button onclick="tornarVermelho()">
+                    <H5>CONFIRMAR ESCOLHA</H5>
+                </button>
+            </div>
         </div>
-        <div>
-            <button id="A3" onclick="changeColor('A3')">3A</button>
-            <button id="B3" onclick="changeColor('B3')">3B</button>
-            <button id="C3" onclick="changeColor('C3')">3C</button>
-            <button id="D3" onclick="changeColor('D3')">3D</button>
-            <button id="E3" onclick="changeColor('E3')">3E</button>
-        </div>
-        <div>
-            <button id="A4" onclick="changeColor('A4')">4A</button>
-            <button id="B4" onclick="changeColor('B4')">4B</button>
-            <button id="C4" onclick="changeColor('C4')">4C</button>
-            <button id="D4" onclick="changeColor('D4')">4D</button>
-            <button id="E4" onclick="changeColor('E4')">4E</button>
-        </div>
-
-        <script>
-            function changeColor(id) {
-                var corBotao = document.getElementById(id).style.backgroundColor;
-                if (corBotao === 'darkgoldenrod') {
-                    corBotao = 'rgb(74, 189, 22)';
-                } else if(corBotao === 'rgb(74,189,22)'){
-                    corBotao = 'darkgoldenrod';
-                }else{
-                    corBotao = 'darkgoldenrod'
-                }
-            }
-        </script>
+        <script src="assets/armario.js"></script>
     </main>
     <footer>
         <p>© Riquelme Borges, Cauê Santos, Daniel Minoru, Gabriel Eiki, Henrique Bressan - Todos os dirwitos reservados
         </p>
     </footer>
 </body>
+
 </html>
