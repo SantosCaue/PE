@@ -7,7 +7,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    nav, header {
+
+    nav,
+    header {
         width: 100%;
     }
 
@@ -15,10 +17,10 @@ body {
         font-size: 41px;
     }
 
-    header #lj  {
+    header #lj {
         width: 65%
     }
-    
+
     header div {
         flex-direction: row;
     }
@@ -40,8 +42,8 @@ body {
     }
 
     main .div1 img {
-    width: 75%;
-    cursor: pointer;
+        width: 75%;
+        cursor: pointer;
     }
 
     body main {
@@ -59,7 +61,7 @@ body {
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px ;
+    font-size: 80px;
 }
 
 header {
@@ -79,9 +81,31 @@ header div {
     width: 0.01%;
 }
 
-#logo img{
+#logo img {
     height: 75px;
     margin-left: 10px;
+}
+
+#carrinho {
+    cursor: pointer;
+}
+
+#carrinho img {
+    filter: invert(100%);
+    height: 65px;
+    margin-right: 10px;
+}
+
+#ativo {
+    height: 5px;
+    width: 5px;
+    margin-right: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #lj {
@@ -111,7 +135,7 @@ nav div {
     margin: auto;
     padding: auto;
     display: flex;
-    width: 500px    ;
+    width: 500px;
     align-items: center;
 
 }
@@ -154,10 +178,11 @@ main {
 }
 
 @keyframes div {
-    0%{
-       opacity: 0%;
+    0% {
+        opacity: 0%;
     }
-    100%{
+
+    100% {
         opacity: 100%;
     }
 }
@@ -172,12 +197,13 @@ main div button a {
     color: white;
 }
 
-button{
+button {
     margin-top: 10px;
     text-decoration: none;
     background-color: #04284a;
     border: solid white 2px;
     color: white;
+    cursor: pointer;
 }
 
 footer {

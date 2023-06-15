@@ -1,6 +1,10 @@
 function changeColor(id) {
     var botao = document.getElementById(id);
     botao.classList.toggle('changeColor');
+    if(document.body.getElementsByClassName('changeColor').length > 4){
+        alert("Máximo de 4 armários por pessoa");
+        botao.classList.toggle('changeColor');
+    }
 }
 function tornarVermelho() {
     var botoes = document.getElementsByClassName("quadrado");

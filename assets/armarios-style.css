@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(56, 56, 56);
+    min-height: 100%;
 }
 
 h1 {
@@ -44,9 +45,6 @@ H5 {
         width: 35%
     }
 
-    body nav {
-        height: 250px;
-    }
 
     nav #menu-h {
         flex-direction: column;
@@ -65,7 +63,6 @@ header {
     background-color: #04284a;
     color: rgb(239, 238, 255);
     width: 100%;
-    height: 100px;
     display: flex;
     text-align: center;
 }
@@ -97,7 +94,6 @@ p {
 
 nav {
     background-color: #044a0e;
-    height: 47px;
     width: 100%;
     display: flex;
 
@@ -124,7 +120,6 @@ nav div a:hover {
 }
 
 main {
-    height: auto;
     width: 100%;
     background-color: #172838;
     text-align: center;
@@ -186,7 +181,6 @@ footer {
     background-color: #04284a;
     color: rgb(239, 238, 255);
     width: 100%;
-    height: 200px;
     display: flex;
     align-items: flex-end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

@@ -1,3 +1,6 @@
+main{
+height: 500px;
+}
 .container {
     width: 300px;
     margin: 0 auto;
@@ -7,7 +10,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container img {
+#foto {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -43,8 +46,19 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.container input[type="submit"] {
-    width: 100%;
+#resposta{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#APRESENTA{
+    display: flex;
+    flex-direction: column;
+}
+.container input[type="button"] {
+    margin-top: 40px;
+    width: 20%;
     padding: 10px;
     background-color: #4caf50;
     color: #fff;
