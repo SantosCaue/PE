@@ -7,6 +7,7 @@
     <title>ETESP | LOJA</title>
     <link rel="stylesheet" type="text/css" href="assets/ARCHIVE.CSS">
     <link rel="stylesheet" href="assets/entrar.css">
+    <link rel="icon" href="assets/etec_ra_metropolitana_sp_capital_sao_paulo_(bom_retiro)_br.webp"> 
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 Home
             </a>
 
-            <a href="sobre.html">Quem somos</a>
+            <a href="qsomos.html">Quem somos</a>
 
             <a href="armario.html">Armários</a>
 
@@ -38,15 +39,17 @@
     <main>
         <div class="container">
             <form name="login">
-                <img src="assets/pfp.png" alt="">
+                <img src="assets/pfp.png" id="foto" alt="">
                 <div id="APRESENTA">
                     <h2>Digite seu RM</h2>
-                    <input type="number" required>
+                    <input type="number" name="RM" required>
                     <h2>Digite sua senha</h2>
-                    <input type="password">
-                    <input type="submit" value="ENTRAR" required>
-                </div>
+                    <input type="password" name="Senha" required>
+                    <input type="button" value="ENTRAR" name="botao" onclick="entrou()">
+                </div>  
             </form>
+            <div id="resposta">
+            </div>
         </div>
     </main>
     <footer>
@@ -54,6 +57,7 @@
             © Riquelme Borges, Cauê Santos, Daniel Minoru, Gabriel Eiki, Henrique Bressan - Todos os direitos reservados
         </p>
     </footer>
+    <script src="assets/entrar.js"></script>
 </body>
 
 </html>
