@@ -25,7 +25,7 @@ function entrou() {
         }
         document.getElementById("resposta").innerHTML = "Seja muito bem vindo Riquelme Borges";
 
-    } else if (rm == 21101 && senha == Bressanfoda69) {
+    } else if (rm == 21101 && senha == "Bressanfoda69") {
         document.getElementById("foto").src = "assets/bressan.jpg";
         document.login.RM.style.display = "none";
         document.login.Senha.style.display = "none";
