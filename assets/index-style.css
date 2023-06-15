@@ -6,9 +6,60 @@ body {
     background-color: #044a0e;
 }
 
+@media only screen and (max-width: 600px) {
+    nav, header {
+        width: 100%;
+    }
+
+    header #lj h1 {
+        font-size: 41px;
+    }
+
+    header #lj  {
+        width: 65%
+    }
+    
+    header div {
+        flex-direction: row;
+    }
+
+    header #logo {
+        width: 35%
+    }
+
+    body nav {
+        height: 250px;
+    }
+
+    nav #menu-h {
+        flex-direction: column;
+    }
+
+    .div1 {
+        display: block;
+    }
+
+    main .div1 img {
+    width: 75%;
+    cursor: pointer;
+    }
+
+    body main {
+        padding: 10px;
+    }
+
+    main .div1 {
+        flex-direction: column;
+    }
+
+    main button {
+        visibility: hidden;
+    }
+}
+
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px;
+    font-size: 80px ;
 }
 
 header {
@@ -87,7 +138,6 @@ main {
     flex-direction: row;
 }
 
-
 .div1 {
     display: flex;
     height: auto;
@@ -102,6 +152,7 @@ main {
     position: relative;
     box-sizing: border-box;
 }
+
 @keyframes div {
     0%{
        opacity: 0%;

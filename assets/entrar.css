@@ -25,12 +25,13 @@
 
 .container input[type="number"],
 .container input[type="text"] {
-    width: 60%;
+    width: 30%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 20px;
 }
+
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -42,7 +43,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.container input[type="button"] {
+.container input[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: #4caf50;
