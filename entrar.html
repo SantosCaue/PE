@@ -39,13 +39,14 @@
     <main>
         <div class="container">
             <form name="login">
-                <img src="assets/pfp.png" id="foto" alt="">
+                <img src="assets/pfp.png" id="foto" alt="" onclick="ver()">
                 <div id="APRESENTA">
                     <h2>Digite seu RM</h2>
                     <input type="number" name="RM" required>
                     <h2>Digite sua senha</h2>
                     <input type="password" name="Senha" required>
                     <input type="button" value="ENTRAR" name="botao" onclick="entrou()">
+                    <input type="button" value="SAIR" name="sair" onclick="lambda()" id="ss">
                 </div>  
             </form>
             <div id="resposta">

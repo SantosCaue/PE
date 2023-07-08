@@ -107,6 +107,17 @@ header div {
     border-radius: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#perfil{
+    display: flex;
+    flex: 10%;
+    align-items: center;
+}
+
+#perfil img {
+    height: 65px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
 
 #lj {
     width: 99.99%;

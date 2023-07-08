@@ -66,3 +66,7 @@ input[type="number"] {
     border-radius: 3px;
     cursor: pointer;
 }
+
+#ss{
+    display: none;
+}
