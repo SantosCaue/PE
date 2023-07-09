@@ -90,7 +90,7 @@ function lambda(){
             franca[g].style.display = "block";
         }
         document.getElementById("resposta").innerHTML = "";
-    document.cookie = "loginStatus=" + "null" + "; expires=Thu, 31 Dec 2025 23:59:59 UTC; path=/";
+        document.cookie = "loginStatus=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 }
 window.onload = function () {
     entrou(); // Check login status when the page loads
